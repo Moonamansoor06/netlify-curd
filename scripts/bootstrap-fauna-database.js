@@ -4,7 +4,7 @@ const insideNetlify = insideNetlifyBuildContext()
 const q = faunadb.query
 
 console.log(chalk.cyan('Creating your FaunaDB Database...\n'))
-
+console.log(!process.env.FAUNADB_SERVER_SECRET)
 // 1. Check for required enviroment variables
 if (!process.env.FAUNADB_SERVER_SECRET) {
   console.log(chalk.yellow('Required FAUNADB_SERVER_SECRET enviroment variable not found.'))
