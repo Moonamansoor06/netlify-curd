@@ -3,6 +3,8 @@
   # This will be run the site build
   command = "CI='' npm runn build
   # This is the directory is publishing to netlify's CDN
-  publish = "public"
+   base = "project/"
+    publish = "build-output/"
+  
 
 
