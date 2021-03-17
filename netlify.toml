@@ -1,8 +1,8 @@
 [build]
   functions = "functions"
   # This will be run the site build
-  command = "CI='' netlify dev
+  command = "CI='' npm runn build
   # This is the directory is publishing to netlify's CDN
-  publish = "public"
+  publish = "web/public"
 
 
