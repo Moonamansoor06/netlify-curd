@@ -4,7 +4,7 @@
   command = "CI='' netlify dev
   # This is the directory is publishing to netlify's CDN
   
-    publish = "build/"
+    publish = "build"
   
 
 
